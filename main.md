@@ -111,7 +111,7 @@ $$
 
 $$ z = \frac{X - \mu}{\sigma} = \frac{70\\% - 67\\%}{12\\%} = 0.25 $$
 
-$$ P(Z > 0.25) = 1 - P(Z \leq 0.25) = = 1 - 0.5987 = 0.4013 $$
+$$ P(Z > 0.25) = 1 - P(Z \leq 0.25) = 1 - 0.5987 = 0.4013 $$
 
 ## Question 4
 
@@ -222,13 +222,7 @@ $$ \text{IQR} = Q_3 - Q_1 = 40 - 23 = 17 $$
 - $\mu$: 45 cm
 - $\sigma$: 15 cm
 
-First, we convert the height to a Z-score:
 $$ z = \frac{X - \mu}{\sigma} = \frac{40 - 45}{15} \approx-0.333 $$
-
-Next, we look up the Z-score in the standard normal distribution table
-or use a calculator to find the corresponding probability. The table
-gives us the probability for \$ Z \< -0.333 \$. We need \$ P(Z \>
--0.333) \$.
 
 $$ P(X > 40) = P(Z > -0.333) = 1 - P(Z < -0.333) \approx 1 - 0.3694 \approx 0.6306 $$
 
