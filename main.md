@@ -57,23 +57,21 @@ $$ \text{Class width} = 32.5 - 19.5 = 13 $$
   their Statistics class?
 - e\) At least 3 students will say they are bored in class.
 
-$$ P(X = x) = {}_{n}C_{x} p^x (1-p)^{n-x} $$
-
-Given:
+$$ P(X = x) = \binom{n}{x} p^x (1-p)^{n-x} $$
 
 - \$ n = 15 \$
 - \$ p = 0.36 \$
 
 ### a) 3 students will say they are bored in class
 
-$$ P(X = 3) = {}_{15}C_{3} \times 0.36^3 \times (1-0.36)^{15-3} \approx 0.10 $$
+$$ P(X = 3) = \binom{15}{3} \times 0.36^3 \times (1-0.36)^{15-3} \approx 0.10 $$
 
 ### b) Fewer than 2 will say they are bored in class
 
 $$
 \begin{align}
-P(X < 2) &= P(X < 0) + P(X < 1) \\
-&= {}_{15}C_{0} \times 0.36^0 \times (1-0.36)^{15-0} + {}_{15}C_{1} \times 0.36^1 \times (1-0.36)^{15-1} \\
+P(X < 2) &= P(X = 0) + P(X = 1) \\
+&= \binom{15}{0} \times 0.36^0 \times (1-0.36)^{15-0} + \binom{15}{1} \times 0.36^1 \times (1-0.36)^{15-1} \\
 &\approx 0.01
 \end{align}
 $$
@@ -92,7 +90,7 @@ $$
 \begin{align}
 P(X \geq 3) &= 1 - P(X < 3)\\
 &= 1 - [P(X = 0) + P(X = 1) + P(X = 2)]\\
-&= 1 - [{}_{15}C_{0} \times 0.36^0 \times (1-0.36)^{15-0} + {}_{15}C_{1} \times 0.36^1 \times (1-0.36)^{15-1} + {}_{15}C_{2} \times 0.36^2 \times (1-0.36)^{15-2}] \\
+&= 1 - \left[\binom{15}{0} \times 0.36^0 \times (1-0.36)^{15-0} + \binom{15}{1} \times 0.36^1 \times (1-0.36)^{15-1} + \binom{15}{2} \times 0.36^2 \times (1-0.36)^{15-2} \right] \\
 &\approx 0.95
 \end{align}
 $$
