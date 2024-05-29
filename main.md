@@ -59,8 +59,8 @@ $$ \text{Class width} = 32.5 - 19.5 = 13 $$
 
 $$ P(X = x) = \binom{n}{x} p^x (1-p)^{n-x} $$
 
-- \$ n = 15 \$
-- \$ p = 0.36 \$
+- $n = 15$
+- $p = 0.36$
 
 ### a) 3 students will say they are bored in class
 
@@ -147,13 +147,9 @@ $$
 
 ### d) The standard deviation
 
-The standard deviation measures the amount of variation or dispersion of
-a set of values. The formula for standard deviation ($\sigma$) for a
-sample is:
-
 $$
 \begin{align}
-\sigma &= \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \mu)^2} \\
+s &= \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \mu)^2} \\
 &= \sqrt{\frac{1}{6-1} \times [(5 - 8.67)^2 + (7 - 8.67)^2 + (12 - 8.67)^2 + (8 - 8.67)^2 + (8 - 8.67)^2 + (12 - 8.67)^2]} \\
 &= 2.80
 \end{align}
