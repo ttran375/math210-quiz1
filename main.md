@@ -4,15 +4,12 @@
 
 Given the following frequency histogram, find:
 
-<img src="main/media/image2.png" style="width:6.25in;height:4.6875in" />
+<img src="vertopal_72e10982021d4209b7f2ff2926977d6c/media/image2.png" style="width:6.25in;height:4.6875in" />
 
-- 1)  The sample size that was analyzed
-
-- 2)  What is the cumulative frequency of class 2?
-
-- 3)  What is the midpoint of class 3?
-
-- 4)  What is the class width?
+- A\) The sample size that was analyzed
+- B\) What is the cumulative frequency of class 2?
+- C\) What is the midpoint of class 3?
+- D\) What is the class width?
 
 Let’s analyze the histogram to answer the given questions.
 
@@ -38,7 +35,7 @@ $$ \text{Cumulative frequency of class 2} = 4 + 11 = 15 $$
 - Lower boundary of class 3: 45.5
 - Upper boundary of class 3: 58.5
 
-$$ \text{Midpoint} = \frac{45.5 + 58.5}{2} = 52 $$
+$$ \text{Midpoint of class 3} = \frac{45.5 + 58.5}{2} = 52 $$
 
 ### D) What is the class width?
 
@@ -46,43 +43,32 @@ $$ \text{Midpoint} = \frac{45.5 + 58.5}{2} = 52 $$
 
 $$ \text{Class width} = 32.5 - 19.5 = 13 $$
 
-### Answer:
-
-- 1)  The sample size that was analyzed: **21**
-
-- 2)  The cumulative frequency of Class 2: **15**
-
-- 3)  The midpoint of Class 3: **52**
-
-- 4)  The class width: **13**
-
 ## Question 2
 
 1.  It is estimated that 36% of the students are bored in their
     Statistics class. If a random sample of 15 students from this
     population is examined, find the probability that:
 
-- 1)  3 students will say they are bored in class.
-
-- 2)  Fewer than 2 will say they are bored in class.
-
-- 3)  What is the expected value of students bored in their Statistics
-      class?
-
-- 4)  What is the standard deviation for the number of students bored in
-      their Statistics class?
-
-- 5)  At least 3 students will say they are bored in class.
+- a\) 3 students will say they are bored in class.
+- b\) Fewer than 2 will say they are bored in class.
+- c\) What is the expected value of students bored in their Statistics
+  class?
+- d\) What is the standard deviation for the number of students bored in
+  their Statistics class?
+- e\) At least 3 students will say they are bored in class.
 
 $$ P(X = x) = {}_{n}C_{x} p^x (1-p)^{n-x} $$
 
-Given: - \$ n = 15 \$ - \$ p = 0.36 \$
+Given:
 
-### a) 3 students will say they are bored in class.
+- \$ n = 15 \$
+- \$ p = 0.36 \$
+
+### a) 3 students will say they are bored in class
 
 $$ P(X = 3) = {}_{15}C_{3} \times 0.36^3 \times (1-0.36)^{15-3} \approx 0.10 $$
 
-### b) Fewer than 2 will say they are bored in class.
+### b) Fewer than 2 will say they are bored in class
 
 $$
 \begin{align}
@@ -90,8 +76,9 @@ P(X < 2) &= P(X < 0) + P(X < 1) \\
 &= {}_{15}C_{0} \times 0.36^0 \times (1-0.36)^{15-0} + {}_{15}C_{1} \times 0.36^1 \times (1-0.36)^{15-1} \\
 &\approx 0.01
 \end{align}
-$$ \### c) What is the expected value of students bored in their
-Statistics class?
+$$
+
+### c) What is the expected value of students bored in their Statistics class?
 
 $$ \mu = E[X] = np = 15 \times 0.36 = 5.40$$
 
@@ -99,7 +86,7 @@ $$ \mu = E[X] = np = 15 \times 0.36 = 5.40$$
 
 $$ \sigma = \sqrt{V[X]} = \sqrt{np(1-p)} = \sqrt{15 \times 0.36 \times(1-0.36)} = 1.86$$
 
-### e) At least 3 students will say they are bored in class.
+### e) At least 3 students will say they are bored in class
 
 $$
 \begin{align}
@@ -132,23 +119,19 @@ For the following sample data below representing the amount of time (in
 hours) groups of students spent in completing a Statistics project,
 find: 5, 7, 12, 8, 8, 12
 
-- 1)  The mean;
+- a\) The mean;
+- b\) The median;
+- c\) The midrange;
+- d\) The standard deviation;
+- e\) The 58th percentile;
 
-- 2)  The median;
-
-- 3)  The midrange;
-
-- 4)  The standard deviation;
-
-- 5)  The 58th percentile;
-
-### a) The mean;
+### a) The mean
 
 $$
 \bar{x} = \frac{5 + 7 + 12 + 8 + 8 + 12}{6} \approx 8.67
 $$
 
-### b) The median;
+### b) The median
 
 Sort: 5, 7, 8, 8, 12, 12
 
@@ -156,7 +139,7 @@ $$
 \text{Median} = \frac{8 + 8}{2} = 8
 $$
 
-### c) The midrange;
+### c) The midrange
 
 Sort: 5, 7, 8, 8, 12, 12
 
@@ -164,7 +147,7 @@ $$
 \text{Midrange} = \frac{5 + 12}{2} = \frac{17}{2} = 8.5
 $$
 
-### d) The standard deviation;
+### d) The standard deviation
 
 The standard deviation measures the amount of variation or dispersion of
 a set of values. The formula for standard deviation ($\sigma$) for a
@@ -178,7 +161,7 @@ $$
 \end{align}
 $$
 
-### e) The 58th percentile;
+### e) The 58th percentile
 
 Sort: 5, 7, 8, 8, 12, 12
 
@@ -190,14 +173,12 @@ $$
 
 For the data in the stem and leaf graph below, find:
 
-- 1)  First quartile;
-
-- 2)  Third quartile;
-
-- 3)  The interquartile range;
+- A\) First quartile;
+- B\) Third quartile;
+- C\) The interquartile range;
 
 Key: 2\|3 means 23 lbs.
-<img src="main/media/image1.png" style="width:2.91667in;height:4.71875in" />
+<img src="vertopal_72e10982021d4209b7f2ff2926977d6c/media/image1.png" style="width:2.91667in;height:4.71875in" />
 
 - Stem 1: 15, 17, 18
 - Stem 2: 23, 23, 24, 25, 26
@@ -208,17 +189,17 @@ Key: 2\|3 means 23 lbs.
 
 Sort: 15, 17, 18, 23, 23, 24, 25, 26, 35, 36, 37, 40, 42, 56, 63
 
-### A) First quartile;
+### A) First quartile
 
 The first quartile ($Q_1$) is the median of the first half of the data,
 the 4th value of the first 7 value: 23
 
-### B) Third quartile;
+### B) Third quartile
 
 The third quartile ($Q_3$) is the median of the last half of the data,
 the 4th value of the last 7 value: 40
 
-### C) The interquartile range;
+### C) The interquartile range
 
 The interquartile range (IQR) is the difference between the third
 quartile and the first quartile.
@@ -230,15 +211,11 @@ $$ \text{IQR} = Q_3 - Q_1 = 40 - 23 = 17 $$
 7.  The height of trees in a nursery is normally distributed with a mean
     of 45 cm and a standard deviation of 15 cm. Find:
 
-- 1)  The probability that a tree will have a height above 40 cm
-
-- 2)  The probability that a tree will have a height below 40 cm
-
-- 3)  The height that separates the top 10% of the heights from the rest
-
-- 4)  The height that separates the bottom 15% from the rest
-
-- 5)  The 87<sup>th</sup> percentile
+- a\) The probability that a tree will have a height above 40 cm
+- b\) The probability that a tree will have a height below 40 cm
+- c\) The height that separates the top 10% of the heights from the rest
+- d\) The height that separates the bottom 15% from the rest
+- e\) The 87<sup>th</sup> percentile
 
 ### a) The probability that a tree will have a height above 40 cm
 
@@ -285,21 +262,14 @@ $$ X = \mu + Z_{0.87}\sigma \approx 45 + 1.126 \times 15= 61.89 $$
 | 47    | 6     |
 | 73    | 4     |
 
-- 1)  ∑x
-
-- 2)  ∑y
-
-- 3)  ∑x<sup>2</sup>
-
-- 4)  ∑y<sup>2</sup>
-
-- 5)  ∑xy
-
-- 6)  $b_1$ (round to 2 decimal places)
-
-- 7)  $b_0$ (write your answer to one decimal place)
-
-- 8)  Coefficient of correlation
+- a\) ∑x
+- b\) ∑y
+- c\) ∑x<sup>2</sup>
+- d\) ∑y<sup>2</sup>
+- e\) ∑xy
+- f\) $b_1$ (round to 2 decimal places)
+- g\) $b_0$ (write your answer to one decimal place)
+- h\) Coefficient of correlation
 
 ### a) ∑x
 
